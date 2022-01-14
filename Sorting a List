@@ -1,0 +1,19 @@
+print("Welcome to the list sorting!")
+
+#Take input from the user...
+
+a = eval(input("Enter the values separated by comma : "))
+
+#Make a list of the data provided...
+
+b = list(a)
+
+#Sort the list...
+
+c = sorted(b)
+
+#Print the list...
+
+print("The list you provided is :", b)
+
+print("The sorted list is :", c)
